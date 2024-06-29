@@ -35,6 +35,33 @@
     <version>2.9.0</version>
 </dependency>
 
+<!-- librerias necesarias para trabajar con web services.... -->
+	<dependency>
+		<groupId>javax.ws.rs</groupId>
+		<artifactId>javax.ws.rs-api</artifactId>
+		<version>2.1.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.glassfish.jersey.containers</groupId>
+		<artifactId>jersey-container-servlet</artifactId>
+		<version>2.25.1</version>
+		<!-- 3.0.12 -->
+	</dependency>
+	<dependency>
+		<groupId>org.glassfish.jersey.media</groupId>
+		<artifactId>jersey-media-json-jackson</artifactId>
+		<version>2.25.1</version>
+		<!-- 3.1.0-M8 -->
+	</dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.25</version>
+</dependency>
+
+
   </dependencies>
   <build>
     <finalName>ProyectoDSWEBII2024</finalName>
